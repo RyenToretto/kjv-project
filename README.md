@@ -6,7 +6,7 @@ Java **从零到精通**的个人学习仓库。前提：你是 **Java 小白**�
 
 | 路径 | 阶段 | 内容 | 状态 |
 | --- | --- | --- | --- |
-| [`00_java_basics/`](./00_java_basics/README.md) | 阶段 1 | Java 语法与面向对象入门 | 🌱 已有种子课，待全量生成 |
+| [`00_java_basics/`](./00_java_basics/README.md) | 阶段 1 | Java 语法与面向对象入门 | ✅ 已生成 |
 | [`01_java8_plus/`](./01_java8_plus/README.md) | 阶段 2 | Java 8+（Lambda / Stream 等） | 📝 待生成 |
 | [`02_collections_deep/`](./02_collections_deep/README.md) | 阶段 2 | 集合框架深挖 | 📝 待生成 |
 | [`03_jvm/`](./03_jvm/README.md) | 阶段 3 | JVM 基础 | 📝 待生成 |
