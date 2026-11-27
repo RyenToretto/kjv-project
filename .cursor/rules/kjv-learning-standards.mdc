@@ -6,21 +6,29 @@
 ## 1. 目录与文件编号（必须从 `00_` 开始）
 - 学习阶段目录置于仓库根目录，按学习阶段递增：第一阶段为 `00_java_basics`，之后 `01_`、`02_`…
 - 专题子目录从 `00_` 递增；**Java 源文件**命名为 `L00_TopicName.java`（类名不能以数字开头，故用 `L` 前缀），类名与文件名一致。
-- 学习者起点是 **Java 小白**（可能只会其他语言的基础）：必须由浅入深，中文讲解，禁止默认已会 Spring/JVM。
+- 学习者起点是 **Java 小白**（可能只会其他语言的基础）：必须由浅入深，中文讲解，禁止默认已会 Spring/JVM/Maven/注解驱动。
 
 ## 2. 单个学习脚本的标准结构
 - **顶部 Doc 注释块**：主题、难度、前置知识、多写法对比、在后端 / 并发 / 中间件 / 业务系统中的真实用途。
 - **多版本实现**：优先「新手直观版」与「惯用 / 进阶版」；Java 25；中文逐行注释。
 - **自测 + `bootstrap()`**：提供 `runTests()`（失败抛 `AssertionError`）与 `bootstrap()`；`main` 调用 `bootstrap()`，末尾调用 `runTests()`。
 - 包名：`kjv.sNN_slug.topic`（例如 `kjv.s00_java_basics.syntax`），与目录对应；源码放在 `NN_slug/.../src` 映射到 Maven 时见 skill（默认：`src/main/java/kjv/...` 或阶段内自包含可被 verify 编译运行的结构）。
+- **入门与心智课优先无 package 单文件**，保证 `./scripts/verify_modules.sh` 可直接 `javac` + `java`。
 
 ## 3. 技术约定
 - JDK **25+**（教学按 25 写法；本机可用更高版本）。
 - 构建：仓库内 `./mvnw`（Maven Wrapper），不要假设全局装了 `mvn`。
 - 早期课尽量只依赖 JDK；引入第三方库须写入 `pom.xml`。
 - 测试保持**离线可跑**（用内存结构 / 假对象；需要 DB/Redis 时用 Testcontainers 或嵌入式，并在 README 注明）。
-- 验证：`./scripts/verify_modules.sh <目录>` 或 skill 约定的命令。
+- 验证：`./scripts/verify_modules.sh <目录>` 或 skill 约定的命令；每阶段提交前必须全绿。
+- **生产框架心智课**（`06_`～`19_`）：可用纯 JDK 迷你实现对照 Spring/Redis/MQ/K8s 概念，禁止默认读者已会注解与 starter；落地真项目时在阶段 README 写明对照关系。
 
-## 4. 文档同步
-- 每个阶段有自己的 `README.md` 进度表。
-- 根 `README.md` 的「已生成」目录表与推荐表中的目录名保持一致。
+## 4. 全自动生成批次（两轮对话固化）
+- 一次只做一个 `NN_xxx`；写完更新该阶段 README 与根 README「已生成」表。
+- verify 全绿后**单独 git commit**；全部完成后才 `git push`；禁止 force push。
+- 就业主线：`00_`～`13_`；顶尖精通推荐顺序：`14 → 17 → 16 → 15 → 18 → 19`（见 roadmap）。
+- 不要无关重构；不要把未验证的假链接写进文档。
+
+## 5. 文档同步
+- 每个阶段有自己的 `README.md` 进度表（总课数 / 已完成）。
+- 根 `README.md` 的「已生成」目录表、推荐表、阶段路线与 `references/roadmap.md` 目录名保持一致。
