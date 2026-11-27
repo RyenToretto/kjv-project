@@ -24,6 +24,7 @@ description: >-
    - 根 [README.md](../../../README.md) 与 [references/roadmap.md](references/roadmap.md)。
    - 阶段目录：`<repo-root>/NN_<slug>/`。
    - 起点：**Java 小白**；后端主线目标是 **Spring Boot 就业级**。
+   - 工具链：**JDK 25+**（编译 release=25）；不要再按 Java 17 降级教学，除非某第三方库尚未支持 25。
 
 2. **读模板再写代码**
    - 必读 [references/templates.md](references/templates.md)。

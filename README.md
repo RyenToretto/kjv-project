@@ -23,7 +23,7 @@ Java **从零到精通**的个人学习仓库。前提：你是 **Java 小白**�
 
 ## 环境
 
-- JDK **17+**（本机有更高版本亦可；教学按 17）
+- JDK **25 或更新**（本仓库教学与 `pom.xml` 的 `maven.compiler.release` 均按 **25**；生成课可使用 25 的新特性，如未命名类/灵活构造等，但入门课仍以好懂为先）
 - 验证入门课（无需 Maven）：
 
 ```bash
@@ -85,6 +85,7 @@ chmod +x scripts/verify_modules.sh
 请严格按 java-study-generator skill 与 .cursor/rules/kjv-learning-standards.mdc 执行。
 
 我的起点：Java 小白（可能有一点其他语言基础，但请按零基础讲 Java）。
+工具链：统一使用 JDK 25 或更新（pom.xml release=25）；生成的代码与讲解按 25，不要按 17 降级。
 目标：按 README「阶段路线」顺序，把尚未生成的目录全部自动生成完，使我按顺序学完后达到可就业的 Java 后端水平（语法/集合扎实、懂 JVM 与并发基础、会 MySQL、能独立用 Spring Boot 做中小型 API、会 Redis/MQ 入门、会写测试、有一个综合小项目）。
 
 生成顺序（跳过已完成的课，补齐缺课）：

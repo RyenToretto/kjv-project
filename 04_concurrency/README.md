@@ -2,7 +2,7 @@
 
 - **目标**: ��由 java-study-generator 按路线图生成完整课）。
 - **前置**: 00_java_basics、03_jvm
-- **环境**: JDK 17+；`./scripts/verify_modules.sh 04_concurrency`
+- **环境**: JDK 25+；`./scripts/verify_modules.sh 04_concurrency`
 
 ## 章节进度
 

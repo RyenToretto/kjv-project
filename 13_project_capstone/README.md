@@ -2,7 +2,7 @@
 
 - **目标**: ��由 java-study-generator 按路线图生成完整课）。
 - **前置**: 06_～11_
-- **环境**: JDK 17+；`./scripts/verify_modules.sh 13_project_capstone`
+- **环境**: JDK 25+；`./scripts/verify_modules.sh 13_project_capstone`
 
 ## 章节进度
 

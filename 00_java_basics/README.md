@@ -2,7 +2,7 @@
 
 - **目标**: 从零掌握 Java 基本语法、方法、数组、OOP、异常，能独立写小程序并跑通自测。
 - **前置**: 无（Java 小白）
-- **环境**: JDK 17+；`./scripts/verify_modules.sh 00_java_basics`
+- **环境**: JDK 25+；`./scripts/verify_modules.sh 00_java_basics`
 
 ## 章节进度
 

@@ -8,6 +8,14 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
 
+# 要求本机 javac 主版本 >= 25（与仓库 JDK 25 教学目标一致）
+JAVA_VER="$(javac -version 2>&1 | sed -n 's/.* \([0-9][0-9]*\).*/\1/p' | head -1)"
+if [[ -z "$JAVA_VER" ]] || [[ "$JAVA_VER" -lt 25 ]]; then
+  echo "❌ 需要 JDK 25 或更新，当前 javac: $(javac -version 2>&1)"
+  exit 1
+fi
+echo "javac $(javac -version 2>&1) （目标 release 25+）"
+
 if [[ $# -lt 1 ]]; then
   echo "用法: $0 <目录...>"
   exit 1

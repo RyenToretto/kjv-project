@@ -10,12 +10,12 @@
 
 ## 2. 单个学习脚本的标准结构
 - **顶部 Doc 注释块**：主题、难度、前置知识、多写法对比、在后端 / 并发 / 中间件 / 业务系统中的真实用途。
-- **多版本实现**：优先「新手直观版」与「惯用 / 进阶版」；Java 17；中文逐行注释。
+- **多版本实现**：优先「新手直观版」与「惯用 / 进阶版」；Java 25；中文逐行注释。
 - **自测 + `bootstrap()`**：提供 `runTests()`（失败抛 `AssertionError`）与 `bootstrap()`；`main` 调用 `bootstrap()`，末尾调用 `runTests()`。
 - 包名：`kjv.sNN_slug.topic`（例如 `kjv.s00_java_basics.syntax`），与目录对应；源码放在 `NN_slug/.../src` 映射到 Maven 时见 skill（默认：`src/main/java/kjv/...` 或阶段内自包含可被 verify 编译运行的结构）。
 
 ## 3. 技术约定
-- JDK **17+**（教学按 17 写法；本机可用更高版本）。
+- JDK **25+**（教学按 25 写法；本机可用更高版本）。
 - 构建：仓库内 `./mvnw`（Maven Wrapper），不要假设全局装了 `mvn`。
 - 早期课尽量只依赖 JDK；引入第三方库须写入 `pom.xml`。
 - 测试保持**离线可跑**（用内存结构 / 假对象；需要 DB/Redis 时用 Testcontainers 或嵌入式，并在 README 注明）。

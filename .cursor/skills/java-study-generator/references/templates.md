@@ -60,7 +60,7 @@ public class L00_HelloAndTypes {
 
 - **目标**: ...
 - **前置**: ...
-- **环境**: JDK 17+，`./scripts/verify_modules.sh NN_slug`
+- **环境**: JDK 25+，`./scripts/verify_modules.sh NN_slug`
 
 ## 章节进度
 

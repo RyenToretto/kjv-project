@@ -2,7 +2,7 @@
 
 - **目标**: ��由 java-study-generator 按路线图生成完整课）。
 - **前置**: 06_～09_
-- **环境**: JDK 17+；`./scripts/verify_modules.sh 10_microservices`
+- **环境**: JDK 25+；`./scripts/verify_modules.sh 10_microservices`
 
 ## 章节进度
 

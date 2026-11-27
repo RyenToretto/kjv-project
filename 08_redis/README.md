@@ -2,7 +2,7 @@
 
 - **目标**: ��由 java-study-generator 按路线图生成完整课）。
 - **前置**: 06_spring_boot
-- **环境**: JDK 17+；`./scripts/verify_modules.sh 08_redis`
+- **环境**: JDK 25+；`./scripts/verify_modules.sh 08_redis`
 
 ## 章节进度
 

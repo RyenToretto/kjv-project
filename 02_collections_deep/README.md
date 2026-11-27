@@ -2,7 +2,7 @@
 
 - **目标**: ��由 java-study-generator 按路线图生成完整课）。
 - **前置**: 00_java_basics、01_java8_plus
-- **环境**: JDK 17+；`./scripts/verify_modules.sh 02_collections_deep`
+- **环境**: JDK 25+；`./scripts/verify_modules.sh 02_collections_deep`
 
 ## 章节进度
 
