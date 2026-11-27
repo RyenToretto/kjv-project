@@ -11,9 +11,9 @@ Java **从零到精通**的个人学习仓库。前提：你是 **Java 小白**�
 | [`02_collections_deep/`](./02_collections_deep/README.md) | 阶段 2 | 集合框架深挖 | ✅ 已生成 |
 | [`03_jvm/`](./03_jvm/README.md) | 阶段 3 | JVM 基础 | ✅ 已生成 |
 | [`04_concurrency/`](./04_concurrency/README.md) | 阶段 3 | 并发与 JUC | ✅ 已生成 |
-| [`05_mysql_jdbc/`](./05_mysql_jdbc/README.md) | 阶段 4 | SQL + JDBC | 📝 待生成 |
-| [`06_spring_boot/`](./06_spring_boot/README.md) | 阶段 5 | Spring Boot Web | 📝 待生成 |
-| [`07_persistence/`](./07_persistence/README.md) | 阶段 5 | JPA / MyBatis | 📝 待生成 |
+| [`05_mysql_jdbc/`](./05_mysql_jdbc/README.md) | 阶段 4 | SQL + JDBC | ✅ 已生成 |
+| [`06_spring_boot/`](./06_spring_boot/README.md) | 阶段 5 | Spring Boot Web | ✅ 已生成 |
+| [`07_persistence/`](./07_persistence/README.md) | 阶段 5 | JPA / MyBatis | ✅ 已生成 |
 | [`08_redis/`](./08_redis/README.md) | 阶段 6 | Redis 缓存 | 📝 待生成 |
 | [`09_message_queue/`](./09_message_queue/README.md) | 阶段 6 | 消息队列 | 📝 待生成 |
 | [`10_microservices/`](./10_microservices/README.md) | 阶段 7 | 微服务入门 | 📝 待生成 |
