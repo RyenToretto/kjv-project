@@ -121,10 +121,11 @@ chmod +x scripts/verify_modules.sh
 现在从下一个未完成的阶段开始全自动执行，直到全部完成。
 ```
 
-## 四、和 kpy / kts 的关系
+## 四、和 kgo / kpy / kts 的关系
 
+- `kjv-project`：Java 后端主线（本仓库）
+- `kgo-project`：Go 后端主线（同级目录，规则/skill 模式对齐）
 - `kpy_project`：Python / AI 数据与 Agent
 - `kts-project`：TypeScript / RxJS / React 前端
-- `kjv-project`：Java 后端主线
 
-三者同级目录，可按兴趣并行，但 **Java 请严格按本仓库阶段顺序**，不要一上来只抄 Spring 教程。
+同级目录可按兴趣并行，但 **Java 请严格按本仓库阶段顺序**，不要一上来只抄 Spring 教程。
