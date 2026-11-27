@@ -21,11 +21,11 @@ Java **从零到精通**的个人学习仓库。前提：你是 **Java 小白**�
 | [`12_design_patterns/`](./12_design_patterns/README.md) | 阶段 7 | 常用设计模式 | ✅ 已生成 |
 | [`13_project_capstone/`](./13_project_capstone/README.md) | 毕业 | 综合小项目 | ✅ 已生成 |
 | [`14_spring_boot_prod/`](./14_spring_boot_prod/README.md) | 精通 | Spring Boot 生产级 | ✅ 已生成 |
-| [`15_jvm_advanced/`](./15_jvm_advanced/README.md) | 精通 | JVM 进阶 | 📝 生成中 |
+| [`15_jvm_advanced/`](./15_jvm_advanced/README.md) | 精通 | JVM 进阶 | ✅ 已生成 |
 | [`16_concurrency_advanced/`](./16_concurrency_advanced/README.md) | 精通 | 并发进阶 | ✅ 已生成 |
 | [`17_data_infra/`](./17_data_infra/README.md) | 精通 | 数据与中间件 | ✅ 已生成 |
-| [`18_cloud_native/`](./18_cloud_native/README.md) | 精通 | 云原生入门 | 📝 生成中 |
-| [`19_architecture/`](./19_architecture/README.md) | 精通 | 架构与 SRE | 📝 生成中 |
+| [`18_cloud_native/`](./18_cloud_native/README.md) | 精通 | 云原生入门 | ✅ 已生成 |
+| [`19_architecture/`](./19_architecture/README.md) | 精通 | 架构与 SRE | ✅ 已生成 |
 
 ## 环境
 
@@ -75,6 +75,7 @@ chmod +x scripts/verify_modules.sh
 | 5. Spring 主线 | 1～2 月 | `06_spring_boot`、`07_persistence` | 做一个 CRUD API | 独立完成带校验与统一异常的 REST 服务 |
 | 6. 缓存与消息 | 2～4 周 | `08_redis`、`09_message_queue` | 接到上阶段项目上 | 会缓存查询；理解消息异步与幂等 |
 | 7. 进阶与作品 | 1～2 月 | `10_`～`13_` | 微服务概念 + 模式 + 毕业项目 | 作品集可演示；简历能写清技术点 |
+| 8. 顶尖精通 | 持续 | `14_`→`17_`→`16_`→`15_`→`18_`→`19_` | 生产 Boot、中间件、并发/JVM 深挖、云原生、架构 SRE | 各方向可讲清原理并落地对照真实组件 |
 
 ## 三、用 Cursor 全自动生成（rules + skill）
 

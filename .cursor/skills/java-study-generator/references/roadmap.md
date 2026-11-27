@@ -3,8 +3,8 @@
 ## 学习者画像
 
 - **起点**：Java 小白（可能有一点 JS/其他语言基础，但按零基础讲 Java）。
-- **目标**：按顺序学完后达到**可就业的 Java 后端**水平（Spring Boot 能独立做中小型业务 API，懂 JVM/并发/MySQL/Redis 基础，会写测试）。
-- **JDK**：统一 **JDK 25 或更新**（`pom.xml` 的 `maven.compiler.release=25`）。生成课可用 25 特性，但小白入门课仍以可读性优先，不要堆炫技语法。
+- **目标**：按顺序学完后达到**可就业的 Java 后端**水平，并继续 `14_`～`19_` 冲刺各方向精通。
+- **JDK**：统一 **JDK 25 或更新**（`pom.xml` 的 `maven.compiler.release=25`）。
 
 ## 阶段编号（学习顺序）
 
@@ -24,8 +24,14 @@
 | `11_` | `11_testing` | JUnit5、Mockito、切片测试 |
 | `12_` | `12_design_patterns` | 常用模式与 Spring 中的体现 |
 | `13_` | `13_project_capstone` | 综合小项目（CRUD + 鉴权 + 缓存） |
+| `14_` | `14_spring_boot_prod` | 生产分层、JWT、事务、缓存、错误体、切片测试 |
+| `15_` | `15_jvm_advanced` | 双亲委派、GC 选型、泄漏、诊断、JIT |
+| `16_` | `16_concurrency_advanced` | AQS、CF、虚拟线程、CAS、池调参 |
+| `17_` | `17_data_infra` | 隔离级别、EXPLAIN、Redis 隐患、投递语义、连接池 |
+| `18_` | `18_cloud_native` | 网关、配置中心、发现、追踪、K8s 探针 |
+| `19_` | `19_architecture` | DDD、事件、CQRS、ADR、SRE 门禁 |
 
-推荐度详表见根 `README.md`（推荐度 ≠ 学习顺序：Spring 推荐度最高，但仍必须先学 `00_`～`05_`）。
+精通推荐学习顺序（与编号不同）：`14 → 17 → 16 → 15 → 18 → 19`。
 
 ## 全自动生成批次
 
