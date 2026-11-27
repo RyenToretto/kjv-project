@@ -20,6 +20,12 @@ Java **从零到精通**的个人学习仓库。前提：你是 **Java 小白**�
 | [`11_testing/`](./11_testing/README.md) | 阶段 4～7 穿插 | JUnit / Mockito | ✅ 已生成 |
 | [`12_design_patterns/`](./12_design_patterns/README.md) | 阶段 7 | 常用设计模式 | ✅ 已生成 |
 | [`13_project_capstone/`](./13_project_capstone/README.md) | 毕业 | 综合小项目 | ✅ 已生成 |
+| [`14_spring_boot_prod/`](./14_spring_boot_prod/README.md) | 精通 | Spring Boot 生产级 | ✅ 已生成 |
+| [`15_jvm_advanced/`](./15_jvm_advanced/README.md) | 精通 | JVM 进阶 | 📝 生成中 |
+| [`16_concurrency_advanced/`](./16_concurrency_advanced/README.md) | 精通 | 并发进阶 | 📝 生成中 |
+| [`17_data_infra/`](./17_data_infra/README.md) | 精通 | 数据与中间件 | 📝 生成中 |
+| [`18_cloud_native/`](./18_cloud_native/README.md) | 精通 | 云原生入门 | 📝 生成中 |
+| [`19_architecture/`](./19_architecture/README.md) | 精通 | 架构与 SRE | 📝 生成中 |
 
 ## 环境
 
